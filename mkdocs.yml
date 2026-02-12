@@ -29,9 +29,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Guia do Professor: setup.md
+  # - Guia do Professor: setup.md
   - 📖 Aulas:
-      - Introdução: aulas/01-introducao.md
+      - 01. Lógica: aulas/01-logica.md
+  - 📝 Listas:
+      - Lista 01: listas/01-lista.md
   - 📝 Atividades:
       - Projeto 01: trabalhos/projeto-01.md
 
