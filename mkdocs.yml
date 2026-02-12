@@ -1,5 +1,5 @@
-site_name: "Sua Disciplina - UNA"
-site_url: https://danhpaiva.github.io/una-uc-mkdocs-template/
+site_name: "Interacao Humano Computador e UX - UNA"
+site_url: https://danhpaiva.github.io/una-ihcux-mkdocs-202601
 site_author: Daniel Paiva
 
 theme:
@@ -29,9 +29,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Guia do Professor: setup.md
+  # - Guia do Professor: setup.md
   - 📖 Aulas:
-      - Introdução: aulas/01-introducao.md
+      - 01. Lógica: aulas/01-logica.md
+  - 📝 Listas:
+      - Lista 01: listas/01-lista.md
   - 📝 Atividades:
       - Projeto 01: trabalhos/projeto-01.md
 
