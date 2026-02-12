@@ -31,7 +31,7 @@ nav:
   - Home: index.md
   # - Guia do Professor: setup.md
   - 📖 Aulas:
-      - 01. Lógica: aulas/01-logica.md
+      - 01. Lógica: aulas/01-interface.md
   - 📝 Listas:
       - Lista 01: listas/01-lista.md
   - 📝 Atividades:
