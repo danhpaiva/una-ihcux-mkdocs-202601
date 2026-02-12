@@ -1,72 +1,58 @@
-🎓 Aula 01: O Despertar do Terminal (com C#)
+# 📚 Programação e IHC: Lista de Exercícios I
 
-1. O que é esse tal de "Console"?
-   
-Pense no Console como uma conversa de WhatsApp com o seu computador.
+Esta lista de exercício deve:
 
-Você digita uma mensagem (Input).
+* Ser realizada em equipes de até **05 alunos**.
+* Ser entregue no prazo proposto.
+* Ter os algoritmos pedidos escritos em linguagem **C# .NET** do tipo **Console**.
+* Ter todos os algoritmos devidamente indentados.
+* **Atenção:** Embora o trabalho seja em equipe, todas as entregas na plataforma são **individuais**.
 
-O computador processa.
+---
 
-O computador responde com um texto (Output).
+## 🍕 Exercício Prático: O "Caos na Cantina"
 
-Antigamente, não existia mouse. Se você quisesse que o computador fizesse algo, você tinha que saber o nome do comando. Hoje, os melhores programadores do mundo ainda fazem isso porque é muito mais rápido.
+**Cenário:**
+A cantina da universidade lançou um sistema console para agilizar os pedidos. Porém, os alunos estão reclamando que o sistema é uma "armadilha":
 
-2. Nossa primeira ferramenta: Console.WriteLine
-   
-No C#, nossa principal forma de "falar" com o usuário é o comando Console.WriteLine().
+1. Se você digita algo errado, ele fecha (crash);
+2. Se você se arrepende de um item, não tem como voltar;
+3. O sistema é "mudo" e não explica o que está acontecendo.
 
-~~~
-Console.WriteLine("Olá, Mundo! Este é o meu primeiro software.");
-~~~
+**O Problema (Código Base):**
+Atualmente, o sistema é linear e frágil. Se o usuário digitar "dois" em vez de `2`, o programa explode. Se ele escolher o lanche errado, precisa fechar o terminal e começar do zero.
 
-Dica: O WriteLine escreve e pula para a linha de baixo. Se você usar apenas Write, ele escreve e fica parado na mesma linha. Parece bobagem, mas é a base para criar interfaces organizadas!
+### 🎯 Sua Missão:
 
-3. Lendo o que o usuário diz
-Para que o programa não seja um monólogo, precisamos ouvir. Usamos o Console.ReadLine().
+Você deve criar uma aplicação console em C# (.NET) que resolva esse fluxo de pedido, aplicando pelo menos **3 Heurísticas de Nielsen** (princípios de design de interface) adaptadas para o terminal.
 
-~~~
-Console.Write("Digite seu nome de usuário: ");
-string nome = Console.ReadLine(); // O programa para e espera você digitar algo
+### Requisitos Técnicos:
 
-Console.WriteLine("Acesso permitido, " + nome + "!");
-~~~
+1. **Heurística #1 (Visibilidade do Status):** Implemente indicadores que mostrem onde o usuário está.
+*Exemplo:* `[Passo 1 de 3] Seleção de Item` ou `[=======] 100% Pedido Processado`.
+2. **Heurística #3 (Controle e Liberdade):** O aluno deve conseguir digitar `voltar` em qualquer etapa para corrigir a informação anterior, ou `cancelar` para abortar tudo e limpar a tela.
+3. **Heurística #9 (Ajuda e Erros):** O sistema deve ser amigável. Se o aluno digitar um código inexistente, o sistema deve dizer exatamente o que houve:
+*"Código 99 não encontrado. Nossos códigos vão de 1 a 10. Tente novamente."*
 
-4. Deixando a "Tela Preta" Profissional
-   
-Ninguém gosta de um texto chapado e sem graça. Mesmo no primeiro dia, podemos usar cores para indicar o que está acontecendo. No C#, fazemos isso com o Console.ForegroundColor.
+---
 
-O Semáforo do Programador:
-Verde: Sucesso.
+## 📝 O que deve ser entregue:
 
-Amarelo: Atenção / Carregando.
+1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
+2. Um **comentário no topo do código** identificando as linhas onde cada heurística foi aplicada.
+3. A **URL do seu repositório do GitHub** contendo o código.
+* **Nome do repositório:** `ihcux-lista-01`
 
-Vermelho: Deu ruim (Erro).
 
-~~~
-Console.ForegroundColor = ConsoleColor.Cyan;
-Console.WriteLine("--- SISTEMA DE LOGIN ---");
-Console.ResetColor(); // Importante: Sempre limpe a cor depois de usar!
-~~~
 
-5. O Grande Desafio do Dia: "O Oráculo Numérico"
-   
-Para fechar nossa primeira aula, vamos criar um pequeno sistema de console que interage com o usuário.
+---
 
-O que o programa deve fazer:
+## 💡 Exemplo de Inspiração (O "Pulo do Gato")
 
-Limpar a tela ao iniciar (Console.Clear()).
+Para a **Heurística de Controle e Liberdade**, pensem em usar um laço `while` para cada pergunta. Se a entrada for inválida ou o comando for de "voltar", você não avança para a próxima variável.
 
-Mudar a cor do título para Amarelo.
+**Dica do Professor:** Menos é mais. Não se preocupe com estética visual complexa agora (ASCII Art, etc). Foque na **lógica de interação**. O console pode ser preto e branco, mas a experiência do usuário deve ser clara e segura!
 
-Perguntar o nome do aluno.
+---
 
-Pedir um número de 1 a 10.
-
-Se o número for 7 (o número da sorte do Oráculo), mostrar uma mensagem em Verde.
-
-Se não, mostrar uma mensagem em Vermelho.
-
-💡 Por que estamos aprendendo isso?
-
-Toda grande inteligência artificial, todo sistema de banco e todo servidor de jogo roda em interfaces de console. Se você aprender a estruturar dados aqui, criar uma interface visual depois será "moleza".
+**Entregue a URL do seu repositório na plataforma indicada em aula.**
