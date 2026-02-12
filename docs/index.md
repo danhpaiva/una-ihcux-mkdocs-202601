@@ -16,15 +16,15 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     ```
 
 === "🗓️ Cronograma"
-    | Aula | Assunto                  | Entrega     |
-    | :--- | :----------------------- | :---------- |
-    | 01   | Introdução ao MkDocs     | -           |
-    | 02   | CI/CD com GitHub Actions | Exercício 1 |
+    | Aula | Assunto           | Entrega  |
+    | :--- | :---------------- | :------- |
+    | 01   | Interface Console | Lista 01 |
+    | 02   | Interface Console | Lista 02 |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
-    - 40% Projetos práticos
-    - 60% Prova oficial
+    - 70% Pontos
+    - 75% Frequencia
 
 !!! danger "Atenção com Prazos"
     Lembre-se de que o sistema fecha automaticamente para entregas atrasadas!
