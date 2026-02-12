@@ -3,7 +3,11 @@
 Aqui você encontrará todo o material de apoio, cronograma e orientações da nossa disciplina.
 
 !!! info "Objetivo da Disciplina"
-    Capacitar o estudante a dominar as ferramentas de documentação técnica utilizando padrões de mercado como Markdown e MkDocs.
+    Identificar os fundamentos e conceitos de interação humano-computador, incluindo usabilidade,
+    acessibilidade e experiência do usuário. Aplicar princípios de ergonomia no design de sistemas
+    digitais centrados no usuário. Utilizar métodos e ferramentas de prototipagem de interfaces para
+    desenvolver soluções de design. Avaliar a usabilidade de interfaces gráficas em diferentes
+    plataformas, incluindo desktop, web e dispositivos móveis.
 
 ## 🛠️ Recursos Rápidos
 
