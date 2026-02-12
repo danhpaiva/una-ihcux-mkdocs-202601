@@ -8,11 +8,13 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
 ## 🛠️ Recursos Rápidos
 
 === "💻 Código de Exemplo"
-    ```python
-    def saudacao():
-        print("Olá, aluno da UNA! Pronto para codar?")
-    
-    saudacao()
+    ```csharp
+        void Saudacao()
+            {
+                Console.WriteLine("Olá, aluno da UNA! Pronto para codar?");
+            }
+
+        Saudacao();
     ```
 
 === "🗓️ Cronograma"
