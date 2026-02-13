@@ -61,6 +61,14 @@ Para fechar nossa primeira aula, vamos criar um pequeno sistema de console que i
 
 ---
 
+## 📝 O que deve ser entregue:
+
+1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
+2. A **URL do seu repositório do GitHub** contendo o código.
+* **Nome do repositório:** `ihcux-pratica-01`
+
+--- 
+
 ## 💡 Por que estamos aprendendo isso?
 
 Toda grande inteligência artificial, todo sistema de banco e todo servidor de jogo roda em interfaces de console. Se você aprender a estruturar dados aqui, criar uma interface visual depois será "moleza".
