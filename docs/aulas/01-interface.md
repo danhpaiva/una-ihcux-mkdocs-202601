@@ -1,74 +1,93 @@
-# 🎓 Aula 01: O Despertar do Terminal (com C#)
+# ⚡ Aula 01: Dominando o Terminal (A Linha de Comando)
 
-## 1. O que é esse tal de "Console"?
-
-Pense no Console como uma **conversa de WhatsApp** com o seu computador:
-
-* **Você** digita uma mensagem (**Input**).
-* O **Computador** processa.
-* O **Computador** responde com um texto (**Output**).
-
-Antigamente, não existia mouse. Se você quisesse que o computador fizesse algo, você tinha que saber o nome do comando. Hoje, os melhores programadores do mundo ainda fazem isso porque é **muito mais rápido**.
-
-## 2. Nossa primeira ferramenta: `Console.WriteLine`
-
-No C#, nossa principal forma de "falar" com o usuário é o comando `Console.WriteLine()`.
-
-~~~
-Console.WriteLine("Olá, Mundo! Este é o meu primeiro software.");
-~~~
-
-Dica: O WriteLine escreve e pula para a linha de baixo. Se você usar apenas Write, ele escreve e fica parado na mesma linha. Parece bobagem, mas é a base para criar interfaces organizadas!
-
-## 3. Lendo o que o usuário diz
-
-Para que o programa não seja um monólogo, precisamos **ouvir**. Para isso, usamos o `Console.ReadLine()`.
-
-~~~
-Console.Write("Digite seu nome de usuário: ");
-string nome = Console.ReadLine(); // O programa para e espera você digitar algo
-
-Console.WriteLine("Acesso permitido, " + nome + "!");
-~~~
-
-## 4. Deixando a "Tela Preta" Profissional
-
-Ninguém gosta de um texto chapado e sem graça. Mesmo no primeiro dia, podemos usar cores para indicar o que está acontecendo. No C#, fazemos isso com o `Console.ForegroundColor`.
-
-### 🚦 O Semáforo do Programador:
-* **Verde:** Sucesso.
-* **Amarelo:** Atenção / Carregando.
-* **Vermelho:** Deu ruim (Erro).
-
-~~~
-Console.ForegroundColor = ConsoleColor.Cyan;
-Console.WriteLine("--- SISTEMA DE LOGIN ---");
-Console.ResetColor(); // Importante: Sempre limpe a cor depois de usar!
-~~~
-
-## 5. O Grande Desafio do Dia: "O Oráculo Numérico"
-
-Para fechar nossa primeira aula, vamos criar um pequeno sistema de console que interage com o usuário.
-
-**O que o seu programa deve fazer:**
-
-1.  **Limpar a tela** ao iniciar (`Console.Clear()`).
-2.  Mudar a **cor do título** para Amarelo.
-3.  **Perguntar** o nome do aluno.
-4.  **Pedir** um número de 1 a 10.
-5.  **Se o número for 7** (o número da sorte do Oráculo), mostrar uma mensagem em **Verde**.
-6.  **Se não**, mostrar uma mensagem em **Vermelho**.
+Esqueça o mouse por alguns minutos. Como desenvolvedor, sua produtividade vai saltar de nível quando você aprender a falar diretamente com o sistema operacional. O **Terminal** não é coisa de filme de hacker dos anos 90; é a ferramenta de trabalho mais poderosa do seu arsenal.
 
 ---
 
-## 📝 O que deve ser entregue:
+## 🖥️ O que é o Terminal (Prompt de Comando)?
 
-1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
-2. A **URL do seu repositório do GitHub** contendo o código.
-* **Nome do repositório:** `ihcux-pratica-01`
+Se a Interface Gráfica (Windows Explorer) é o "painel de controle" com botões e ícones, o **Terminal** é o "motor" por baixo do capô. Nele, enviamos comandos de texto que o sistema executa instantaneamente.
 
---- 
+No Windows, temos três opções principais:
 
-## 💡 Por que estamos aprendendo isso?
+1. **CMD (Prompt de Comando):** O clássico, vindo do antigo MS-DOS.
+2. **PowerShell:** Uma versão moderna e muito mais poderosa, usada por administradores de sistemas.
+3. **Terminal do Windows:** Um aplicativo moderno que agrupa todos os outros em abas (o favorito dos devs).
 
-Toda grande inteligência artificial, todo sistema de banco e todo servidor de jogo roda em interfaces de console. Se você aprender a estruturar dados aqui, criar uma interface visual depois será "moleza".
+---
+
+## 📍 O Conceito de "Diretório Atual"
+
+No Windows Explorer, você vê onde está pelas pastas abertas. No Terminal, você vê pelo **Caminho (Path)**.
+
+* `C:\Users\Joao>` significa que você está "dentro" da pasta do usuário João.
+* Toda ação que você fizer (criar arquivo, apagar, listar) acontecerá **dentro** dessa pasta, a menos que você mude de lugar.
+
+---
+
+## 🛠️ Comandos de Sobrevivência (O "Be-a-Bá")
+
+Aqui estão os comandos que você usará 90% do tempo. Abra o seu CMD (aperte a tecla `Windows`, digite `cmd` e dê `Enter`) e teste agora:
+
+| Objetivo           | Comando (CMD/PS)           | O que ele faz?                                       |
+| ------------------ | -------------------------- | ---------------------------------------------------- |
+| **Listar**         | `dir`                      | Mostra todos os arquivos e pastas onde você está.    |
+| **Navegar**        | `cd nome_da_pasta`         | Entra em uma pasta específica.                       |
+| **Voltar**         | `cd ..`                    | Sai da pasta atual e volta para a "pasta pai".       |
+| **Limpar**         | `cls`                      | Limpa toda a bagunça da tela (Clear Screen).         |
+| **Criar Pasta**    | `mkdir nome_pasta`         | Cria um novo diretório (Make Directory).             |
+| **Mover/Renomear** | `move antigo.txt novo.txt` | Move arquivos ou muda o nome deles.                  |
+| **Apagar**         | `del arquivo.txt`          | Deleta um arquivo (Cuidado! Não vai para a lixeira). |
+
+---
+
+## 🚀 Super Poderes do Teclado
+
+Como um desenvolvedor sênior, eu raramente digito o nome inteiro de uma pasta. Use estes atalhos:
+
+* **⇥ Tab (A Tecla Mágica):** Comece a digitar o nome de uma pasta e aperte `Tab`. O terminal autocompleta para você!
+* **Seta para Cima (↑):** Recupera o último comando que você digitou. Útil para não repetir trabalho.
+* **CTRL + C:** Interrompe um comando que está travado ou rodando em loop.
+
+---
+
+## 🤖 Desafio Prático: Operação "Nuvem Local"
+
+Vamos simular a organização de um projeto real usando apenas o teclado. Siga os passos:
+
+1. Abra o CMD.
+2. Digite `cd Desktop` para ir para a sua área de trabalho.
+3. Crie uma pasta para a nossa disciplina: `mkdir laboratorios-algprog`.
+4. Entre nela: `cd laboratorios-algprog`.
+5. Crie duas subpastas de uma vez: `mkdir aula01 aula02`.
+6. Confirme se elas foram criadas digitando `dir`.
+
+---
+
+## ⚠️ Cuidado: O Poder traz Responsabilidade
+
+!!! danger "Comandos Perigosos"
+Evite digitar comandos que você encontrou na internet sem entender o que fazem, especialmente os que envolvem `del /s /q` ou que tentam apagar pastas dentro de `C:\Windows`. O terminal não pergunta "Tem certeza?" como o Windows faz.
+
+---
+
+## 📝 Atividade de Fixação
+
+??? abstract "Exercício 1: O Detetive de Arquivos"
+Navegue até a sua pasta de `Documentos` via Terminal e use o comando `dir`. Tente encontrar um arquivo específico e anote o tamanho dele (que aparece ao lado do nome).
+
+??? abstract "Exercício 2: Hierarquia de Pastas"
+Crie a seguinte estrutura usando apenas o comando `mkdir` e `cd`:
+`Projetos > Exercicios > Logica`.
+Depois, tente voltar para a pasta `Projetos` usando apenas um comando (`cd ../..`).
+
+??? abstract "Exercício 3: Versão dos Softwares"
+Muitos programas instalados no seu PC só mostram a "cara" no terminal. Tente digitar estes comandos e veja se eles estão instalados (eles devem retornar a versão):
+- `dotnet --version`
+- `git --version`
+- `node -v`
+
+---
+
+!!! tip "Próximos Passos"
+Agora que você sabe navegar como um profissional, vamos aprender a integrar o **Git** diretamente com esses comandos. Na próxima aula: **Controle de Versão via Linha de Comando!**
