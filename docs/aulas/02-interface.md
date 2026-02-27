@@ -93,5 +93,14 @@ Abra o arquivo `.csproj` criado no Exercício 2 usando o comando `notepad Calcul
 
 ---
 
+## 📝 Repositório
+
+Crie um repositório público no GitHub com o nome:
+`una-algprog-calculadora`
+
+0. Suba seus arquivos para o seu repositorio.
+1. Copie a URL do repositório `una-algprog-calculadora`.
+2. Cole no campo da atividade correspondente.
+
 !!! tip "Próximos Passos"
 Agora que você domina o CLI do .NET, o próximo passo é aprender a gerenciar pacotes externos para não precisar "reinventar a roda". Na próxima aula: **Gerenciamento de Pacotes com NuGet via CLI!**
