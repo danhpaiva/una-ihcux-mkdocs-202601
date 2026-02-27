@@ -26,6 +26,7 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     | :--- | :---------------- | :------- |
     | 01   | Interface Console | Lista 01 |
     | 02   | Interface Console | Lista 02 |
+    | 03   | Interface Console | Lista 03 |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
