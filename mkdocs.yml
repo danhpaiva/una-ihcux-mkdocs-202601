@@ -32,6 +32,7 @@ nav:
   # - Guia do Professor: setup.md
   - 📖 Aulas:
       - 01. Interfaces: aulas/01-interface.md
+      - 02. Interfaces: aulas/02-interface.md
   - 📝 Listas:
       - Lista 01: listas/01-listas.md
   - 📝 Atividades:
