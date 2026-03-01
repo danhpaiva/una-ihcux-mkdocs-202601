@@ -27,31 +27,31 @@ Esqueça o "Botão Direito > Novo". Siga esta sequência exata no seu terminal:
 Agora altere o codigo da classe Program.cs para este:
 
 ```csharp
-            // --- UX / IHC: Saudação e Contexto ---
-            Console.Clear();
-            Console.WriteLine("========================================");
-            Console.WriteLine("   SISTEMA EXPERT: Módulo de Boas-Vindas");
-            Console.WriteLine("========================================\n");
+// --- UX / IHC: Saudação e Contexto ---
+Console.Clear();
+Console.WriteLine("========================================");
+Console.WriteLine("   SISTEMA EXPERT: Módulo de Boas-Vindas");
+Console.WriteLine("========================================\n");
 
-            // --- Entrada de Dados ---
-            Console.Write("Olá, Recruta! Qual é o seu nome de Desenvolvedor(a)? ");
-            string nome = Console.ReadLine();
+// --- Entrada de Dados ---
+Console.Write("Olá, Recruta! Qual é o seu nome de Desenvolvedor(a)? ");
+string nome = Console.ReadLine();
 
-            Console.Write($"Prazer, {nome}! Em qual ano você começou a programar? ");
-            string entradaAno = Console.ReadLine();
-            
-            // --- Lógica Simples ---
-            int anoInicio = int.Parse(entradaAno);
-            int anosDeJornada = DateTime.Now.Year - anoInicio;
+Console.Write($"Prazer, {nome}! Em qual ano você começou a programar? ");
+string entradaAno = Console.ReadLine();
 
-            // --- Feedback Visual ---
-            Console.WriteLine("\n----------------------------------------");
-            Console.WriteLine($"STATUS DO PERFIL: {nome.ToUpper()}");
-            Console.WriteLine($"TEMPO DE ESTRADA: {anosDeJornada} ano(s) de experiência.");
-            Console.WriteLine("----------------------------------------");
+// --- Lógica Simples ---
+int anoInicio = int.Parse(entradaAno);
+int anosDeJornada = DateTime.Now.Year - anoInicio;
 
-            Console.WriteLine("\n[Missão Cumprida! Pressione qualquer tecla para encerrar]");
-            Console.ReadKey();
+// --- Feedback Visual ---
+Console.WriteLine("\n----------------------------------------");
+Console.WriteLine($"STATUS DO PERFIL: {nome.ToUpper()}");
+Console.WriteLine($"TEMPO DE ESTRADA: {anosDeJornada} ano(s) de experiência.");
+Console.WriteLine("----------------------------------------");
+
+Console.WriteLine("\n[Missão Cumprida! Pressione qualquer tecla para encerrar]");
+Console.ReadKey();
 ```
 
 ### 3. Registro de Evidência (A "Prova do Crime")
