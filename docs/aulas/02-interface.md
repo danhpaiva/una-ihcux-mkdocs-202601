@@ -102,5 +102,12 @@ Crie um repositório público no GitHub com o nome:
 1. Copie a URL do repositório `una-algprog-calculadora`.
 2. Cole no campo da atividade correspondente.
 
+Crie um repositório público no GitHub com o nome:
+`una-ihcux-pratica02`
+
+0. Suba seu projeto de OlaMundo feito em C#.
+1. Copie a URL do repositório `una-ihcux-pratica02`.
+2. Cole no campo da atividade correspondente.
+
 !!! tip "Próximos Passos"
 Agora que você domina o CLI do .NET, o próximo passo é aprender a gerenciar pacotes externos para não precisar "reinventar a roda". Na próxima aula: **Gerenciamento de Pacotes com NuGet via CLI!**
