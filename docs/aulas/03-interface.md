@@ -71,4 +71,5 @@ Para fechar nossa primeira aula, vamos criar um pequeno sistema de console que i
 
 ## 💡 Por que estamos aprendendo isso?
 
-Toda grande inteligência artificial, todo sistema de banco e todo servidor de jogo roda em interfaces de console. Se você aprender a estruturar dados aqui, criar uma interface visual depois será "moleza".
+Toda grande inteligência artificial, todo sistema de banco e todo servidor de jogo roda em interfaces de console. 
+Se você aprender a estruturar dados aqui, criar uma interface visual depois será "moleza".
