@@ -97,7 +97,7 @@ Arquivos que o .NET criou para mim:
 
 ## 📝 Entrega no Google Classroom
 
-1. Envie o link do repositório `una-dotnet-cli-master`.
+1. Envie o link do repositório `una-ihcux-lista02`.
 2. **Pergunta de Reflexão:** No comentário, responda: 
 
 *"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) e a pasta que o comando 'dotnet new' criou?"*
