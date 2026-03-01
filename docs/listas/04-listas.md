@@ -1,59 +1,107 @@
-# 📚 Programação e IHC: Lista de Exercícios I
+# 🚩 Missão 04: Operação Escudo Digital (Prevenção de Erros e Robustez)
 
-Esta lista de exercício deve:
+Um software que "quebra" e mostra uma tela de erro técnica (aquela sopa de letrinhas vermelhas) é o pesadelo de qualquer usuário. 
+De acordo com a **5ª Heurística de Nielsen**, o melhor design previne problemas antes mesmo que eles ocorram.
 
-* Ser realizada em equipes de até **05 alunos**.
-* Ser entregue no prazo proposto.
-* Ter os algoritmos pedidos escritos em linguagem **C# .NET** do tipo **Console**.
-* Ter todos os algoritmos devidamente indentados.
-* **Atenção:** Embora o trabalho seja em equipe, todas as entregas na plataforma são **individuais**.
+Hoje, você vai construir um sistema que sobrevive à "falha humana".
 
 ---
 
-## 🍕 Exercício Prático: O "Caos na Cantina"
+## 🛠️ O Algoritmo da Entrega
 
-**Cenário:**
-A cantina da universidade lançou um sistema console para agilizar os pedidos. 
-Porém, os alunos estão reclamando que o sistema é uma "armadilha":
+### 1. Preparar o Terreno (Novo Repositório)
 
-1. Se você digita algo errado, ele fecha (crash);
-2. Se você se arrepende de um item, não tem como voltar;
-3. O sistema é "mudo" e não explica o que está acontecendo.
+Crie um novo repositório público no GitHub com o nome:
+`una-ihcux-lista04`
 
-**O Problema (Código Base):**
-Atualmente, o sistema é linear e frágil. Se o usuário digitar "dois" em vez de `2`, o programa explode. Se ele escolher o lanche errado, precisa fechar o terminal e começar do zero.
+### 2. O Desafio do "Sistema Inquebrável"
 
-### 🎯 Sua Missão:
+Siga os comandos no terminal:
 
-Você deve criar uma aplicação console em C# (.NET) que resolva esse fluxo de pedido, aplicando pelo menos **3 Heurísticas de Nielsen** (princípios de design de interface) adaptadas para o terminal.
+1. Navegue até sua pasta de projetos (`cd LabDotnet`).
+2. Crie o novo projeto de console:
+`dotnet new console -n SistemaRobusto`
+3. Entre na pasta: `cd SistemaRobusto`.
+4. Abra no VS Code: `code .`.
 
-### Requisitos Técnicos:
+### 3. Implementando a Prevenção de Erros
 
-1. **Heurística #1 (Visibilidade do Status):** Implemente indicadores que mostrem onde o usuário está.
-*Exemplo:* `[Passo 1 de 3] Seleção de Item` ou `[=======] 100% Pedido Processado`.
-2. **Heurística #3 (Controle e Liberdade):** O aluno deve conseguir digitar `voltar` em qualquer etapa para corrigir a informação anterior, ou `cancelar` para abortar tudo e limpar a tela.
-3. **Heurística #9 (Ajuda e Erros):** O sistema deve ser amigável. Se o aluno digitar um código inexistente, o sistema deve dizer exatamente o que houve:
-*"Código 99 não encontrado. Nossos códigos vão de 1 a 10. Tente novamente."*
+Substitua o conteúdo do `Program.cs` por este código. 
+Observe como usamos o bloco `try-catch` para capturar o erro antes dele fechar o programa:
+
+```csharp
+using System;
+
+// --- IHC: Prevenção de Erros (5ª Heurística de Nielsen) ---
+Console.Clear();
+Console.WriteLine("=== SISTEMA DE CADASTRO EXPERT ===");
+
+try 
+{
+    Console.Write("\nDigite sua idade para continuar: ");
+    string entrada = Console.ReadLine();
+
+    // Tentativa de conversão (Onde o erro pode acontecer)
+    int idade = int.Parse(entrada);
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"\n✅ Acesso liberado! Idade {idade} registrada com sucesso.");
+}
+catch (FormatException)
+{
+    // Feedback amigável em vez de um erro técnico
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("\n[ERRO DE UX]: Você digitou letras em um campo que só aceita números!");
+    Console.WriteLine("DICA: Tente novamente inserindo apenas algarismos (ex: 25).");
+}
+finally
+{
+    Console.ResetColor();
+    Console.WriteLine("\n-------------------------------------------");
+    Console.WriteLine("O sistema encerrou a tentativa de operação.");
+    Console.WriteLine("Pressione qualquer tecla para sair...");
+    Console.ReadKey();
+}
+
+```
 
 ---
 
-## 📝 O que deve ser entregue:
+## 📸 Registro de Evidência (A "Prova do Crime")
 
-1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
-2. Um **comentário no topo do código** identificando as linhas onde cada heurística foi aplicada.
-3. A **URL do seu repositório do GitHub** contendo o código.
-* **Nome do repositório:** `ihcux-lista-04`
+Desta vez, você precisa de **dois prints**:
 
-
+1. **Print 01 (Caminho Feliz):** Você digitando um número e o sistema dando sucesso.
+2. **Print 02 (Caminho do Erro):** Você digitando letras (ex: "vinte") e o sistema exibindo a mensagem de erro amigável que você programou.
 
 ---
 
-## 💡 Exemplo de Inspiração (O "Pulo do Gato")
+## 📂 O que deve conter no seu Repositório?
 
-Para a **Heurística de Controle e Liberdade**, pensem em usar um laço `while` para cada pergunta. Se a entrada for inválida ou o comando for de "voltar", você não avança para a próxima variável.
-
-**Dica do Professor:** Menos é mais. Não se preocupe com estética visual complexa agora (ASCII Art, etc). Foque na **lógica de interação**. O console pode ser preto e branco, mas a experiência do usuário deve ser clara e segura!
+* **A pasta `SistemaRobusto`**: Arquivos `.cs` e `.csproj`.
+* **evidencia-sucesso.png** e **evidencia-erro.png**.
+* **README.md**: Explique o que é o `try-catch` e como ele se conecta com a Prevenção de Erros.
 
 ---
 
-**Entregue a URL do seu repositório na plataforma indicada em aula.**
+## 📝 Entrega no Google Classroom
+
+1. Envie o link do repositório `una-ihcux-lista04`.
+2. **Pergunta de Reflexão (IHC):** > "Quando o programa 'crasha' e fecha sozinho por um erro de digitação, qual é o sentimento do usuário? Como o tratamento de erros (mensagens amigáveis) ajuda na confiança que o usuário tem no software?"
+
+---
+
+## ⚠️ Checklist de Sucesso
+
+!!! check "Critérios de Aceite"
+
+* [ ] O repositório `una-ihcux-lista04` está público?
+* [ ] O código captura o erro de digitação sem fechar o terminal de forma abrupta?
+* [ ] As mensagens de erro usam cores (`ConsoleColor`) para destacar o problema?
+
+---
+
+!!! info "Dica de Sênior: O poder do TryParse"
+O `try-catch` é excelente, mas desenvolvedores seniores muitas vezes usam o método `int.TryParse()`. 
+Ele tenta converter o número e, se não conseguir, ele apenas devolve "falso" em vez de gerar uma exceção. 
+É uma forma ainda mais elegante de prevenir erros!

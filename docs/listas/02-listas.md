@@ -9,7 +9,7 @@ Agora que você já domina o terreno (pastas e arquivos), é hora de construir s
 ### 1. Preparar o Terreno (Repositório)
 
 Crie um novo repositório público no GitHub com o nome:
-`una-dotnet-cli-master`
+`una-ihcux-lista02`
 
 ### 2. O Desafio do "Arquiteto de Sistemas"
 
@@ -97,7 +97,7 @@ Arquivos que o .NET criou para mim:
 
 ## 📝 Entrega no Google Classroom
 
-1. Envie o link do repositório `una-dotnet-cli-master`.
+1. Envie o link do repositório `una-ihcux-lista02`.
 2. **Pergunta de Reflexão:** No comentário, responda: 
 
 *"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) e a pasta que o comando 'dotnet new' criou?"*
