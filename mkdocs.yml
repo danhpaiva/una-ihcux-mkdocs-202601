@@ -35,8 +35,8 @@ nav:
       - 02. Interfaces: aulas/02-interface.md
   - 📝 Listas:
       - Lista 01: listas/01-lista.md
-  - 📝 Atividades:
-      - Projeto 01: trabalhos/projeto-01.md
+  # - 📝 Atividades:
+  #    - Projeto 01: trabalhos/projeto-01.md
 
 plugins:
   - search
