@@ -13,7 +13,8 @@ Esta lista de exercício deve:
 ## 🍕 Exercício Prático: O "Caos na Cantina"
 
 **Cenário:**
-A cantina da universidade lançou um sistema console para agilizar os pedidos. Porém, os alunos estão reclamando que o sistema é uma "armadilha":
+A cantina da universidade lançou um sistema console para agilizar os pedidos. 
+Porém, os alunos estão reclamando que o sistema é uma "armadilha":
 
 1. Se você digita algo errado, ele fecha (crash);
 2. Se você se arrepende de um item, não tem como voltar;
@@ -41,7 +42,7 @@ Você deve criar uma aplicação console em C# (.NET) que resolva esse fluxo de 
 1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
 2. Um **comentário no topo do código** identificando as linhas onde cada heurística foi aplicada.
 3. A **URL do seu repositório do GitHub** contendo o código.
-* **Nome do repositório:** `ihcux-lista-01`
+* **Nome do repositório:** `ihcux-lista-04`
 
 
 
