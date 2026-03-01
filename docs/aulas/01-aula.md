@@ -95,7 +95,7 @@ Muitos programas instalados no seu PC só mostram a "cara" no terminal. Tente di
 Crie um repositório público no GitHub com o nome:
 `una-ihcux-pratica01`
 
-0. Suba seu projeto de OlaMundo feito em C#.
+0. Documente o seu readme com os principais comandos utilizados na aula.
 1. Copie a URL do repositório `una-ihcux-pratica01`.
 2. Cole no campo da atividade correspondente.
 
