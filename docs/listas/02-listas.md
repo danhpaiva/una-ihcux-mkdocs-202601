@@ -24,36 +24,10 @@ Esqueça o "Botão Direito > Novo". Siga esta sequência exata no seu terminal:
 6. **Compile o projeto:** Execute o comando `dotnet build`.
 7. **Rode o programa:** Execute `dotnet run`.
 
-### 3. Registro de Evidência (A "Prova do Crime")
-
-Tire um **print** do seu terminal mostrando:
-
-* O comando `dotnet run` sendo executado.
-* A mensagem "Hello, World!" (ou o texto que o template gerou) aparecendo na tela.
-
-### 4. Documentação Técnica (README.md)
-
-No seu repositório, edite o `README.md` com o seguinte template:
-
-```markdown
-# 🚀 Minha Primeira Experiência com .NET CLI
-
-Nesta missão, deixei de ser apenas um usuário de pastas e me tornei um desenvolvedor que fala a língua do SDK.
-
-## 🛠️ Comandos de Construção Utilizados
-- `dotnet new console`: Para criar a estrutura base do C#.
-- `dotnet build`: Para transformar meu código em algo que o PC entende.
-- `dotnet run`: Para ver a mágica acontecer.
-
-## 📦 Estrutura Gerada
-Arquivos que o .NET criou para mim:
-1. `Program.cs`: Onde fica o código.
-2. `SistemaExpert.csproj`: As configurações do meu projeto.
-
-Agora substitua o conteudo da Program.cs por este:
+Agora altere o codigo da classe Program.cs para este:
 
 ~~~
-// --- UX / IHC: Saudação e Contexto ---
+            // --- UX / IHC: Saudação e Contexto ---
             Console.Clear();
             Console.WriteLine("========================================");
             Console.WriteLine("   SISTEMA EXPERT: Módulo de Boas-Vindas");
@@ -79,6 +53,32 @@ Agora substitua o conteudo da Program.cs por este:
             Console.WriteLine("\n[Missão Cumprida! Pressione qualquer tecla para encerrar]");
             Console.ReadKey();
 ~~~
+
+### 3. Registro de Evidência (A "Prova do Crime")
+
+Tire um **print** do seu terminal mostrando:
+
+* O comando `dotnet run` sendo executado.
+* A mensagem do terminal (ou o texto que o template gerou) aparecendo na tela.
+
+### 4. Documentação Técnica (README.md)
+
+No seu repositório, edite o `README.md` com o seguinte template:
+
+```markdown
+# 🚀 Minha Primeira Experiência com .NET CLI
+
+Nesta missão, deixei de ser apenas um usuário de pastas e me tornei um desenvolvedor que fala a língua do SDK.
+
+## 🛠️ Comandos de Construção Utilizados
+- `dotnet new console`: Para criar a estrutura base do C#.
+- `dotnet build`: Para transformar meu código em algo que o PC entende.
+- `dotnet run`: Para ver a mágica acontecer.
+
+## 📦 Estrutura Gerada
+Arquivos que o .NET criou para mim:
+1. `Program.cs`: Onde fica o código.
+2. `SistemaExpert.csproj`: As configurações do meu projeto.
 
 ## 📸 Evidência de Execução
 ![Print do terminal rodando o projeto](./minha-evidencia.png)
