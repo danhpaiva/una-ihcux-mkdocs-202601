@@ -65,7 +65,7 @@ Para fechar nossa primeira aula, vamos criar um pequeno sistema de console que i
 
 1. O **código fonte (Program.cs)** funcional e sem erros de compilação.
 2. A **URL do seu repositório do GitHub** contendo o código.
-* **Nome do repositório:** `ihcux-pratica-01`
+* **Nome do repositório:** `ihcux-pratica-03`
 
 --- 
 
