@@ -97,17 +97,17 @@ Abra o arquivo `.csproj` criado no Exercício 2 usando o comando `notepad Calcul
 ## 📝 Repositório
 
 Crie um repositório público no GitHub com o nome:
-`una-algprog-calculadora`
-
-0. Suba seus arquivos para o seu repositorio.
-1. Copie a URL do repositório `una-algprog-calculadora`.
-2. Cole no campo da atividade correspondente.
-
-Crie um repositório público no GitHub com o nome:
 `una-ihcux-pratica02`
 
 0. Suba seu projeto de OlaMundo feito em C#.
 1. Copie a URL do repositório `una-ihcux-pratica02`.
+2. Cole no campo da atividade correspondente.
+
+Crie um repositório público no GitHub com o nome:
+`una-algprog-calculadora`
+
+0. Suba seus arquivos para o seu repositorio.
+1. Copie a URL do repositório `una-algprog-calculadora`.
 2. Cole no campo da atividade correspondente.
 
 !!! tip "Próximos Passos"
