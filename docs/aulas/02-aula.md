@@ -104,7 +104,7 @@ Crie um repositório público no GitHub com o nome:
 2. Cole no campo da atividade correspondente.
 
 Crie um repositório público no GitHub com o nome:
-`una-algprog-calculadora`
+`una-ihcux-calculadorafea`
 
 0. Suba seus arquivos para o seu repositorio.
 1. Copie a URL do repositório `una-ihcux-calculadora`.
