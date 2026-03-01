@@ -78,7 +78,7 @@ Desta vez, você precisa de **dois prints**:
 
 ## 📂 O que deve conter no seu Repositório?
 
-* **A pasta `SistemaRobusto**`: Arquivos `.cs` e `.csproj`.
+* **A pasta `SistemaRobusto`**: Arquivos `.cs` e `.csproj`.
 * **evidencia-sucesso.png** e **evidencia-erro.png**.
 * **README.md**: Explique o que é o `try-catch` e como ele se conecta com a Prevenção de Erros.
 
