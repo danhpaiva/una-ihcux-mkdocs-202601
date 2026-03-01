@@ -89,5 +89,13 @@ Muitos programas instalados no seu PC só mostram a "cara" no terminal. Tente di
 
 ---
 
+
+## 📝 Entrega no Google Classroom
+
+1. Copie a URL do seu perfil do github `https://github.com/danhpaiva`.
+2. Cole no campo da atividade correspondente: Pratica 01.
+
+---
+
 !!! tip "Próximos Passos"
 Agora que você sabe navegar como um profissional, vamos aprender a integrar o **Git** diretamente com esses comandos. Na próxima aula: **Controle de Versão via Linha de Comando!**
