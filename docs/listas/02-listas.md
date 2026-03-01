@@ -50,6 +50,36 @@ Arquivos que o .NET criou para mim:
 1. `Program.cs`: Onde fica o código.
 2. `SistemaExpert.csproj`: As configurações do meu projeto.
 
+Agora substitua o conteudo da Program.cs por este:
+
+~~~
+// --- UX / IHC: Saudação e Contexto ---
+            Console.Clear();
+            Console.WriteLine("========================================");
+            Console.WriteLine("   SISTEMA EXPERT: Módulo de Boas-Vindas");
+            Console.WriteLine("========================================\n");
+
+            // --- Entrada de Dados ---
+            Console.Write("Olá, Recruta! Qual é o seu nome de Desenvolvedor(a)? ");
+            string nome = Console.ReadLine();
+
+            Console.Write($"Prazer, {nome}! Em qual ano você começou a programar? ");
+            string entradaAno = Console.ReadLine();
+            
+            // --- Lógica Simples ---
+            int anoInicio = int.Parse(entradaAno);
+            int anosDeJornada = DateTime.Now.Year - anoInicio;
+
+            // --- Feedback Visual ---
+            Console.WriteLine("\n----------------------------------------");
+            Console.WriteLine($"STATUS DO PERFIL: {nome.ToUpper()}");
+            Console.WriteLine($"TEMPO DE ESTRADA: {anosDeJornada} ano(s) de experiência.");
+            Console.WriteLine("----------------------------------------");
+
+            Console.WriteLine("\n[Missão Cumprida! Pressione qualquer tecla para encerrar]");
+            Console.ReadKey();
+~~~
+
 ## 📸 Evidência de Execução
 ![Print do terminal rodando o projeto](./minha-evidencia.png)
 
@@ -68,7 +98,9 @@ Arquivos que o .NET criou para mim:
 ## 📝 Entrega no Google Classroom
 
 1. Envie o link do repositório `una-dotnet-cli-master`.
-2. **Pergunta de Reflexão:** No comentário, responda: *"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) e a pasta que o comando 'dotnet new' criou?"*
+2. **Pergunta de Reflexão:** No comentário, responda: 
+
+*"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) e a pasta que o comando 'dotnet new' criou?"*
 
 ---
 
@@ -76,10 +108,15 @@ Arquivos que o .NET criou para mim:
 
 !!! check "Critérios de Aceite"
 - [ ] O repositório contém o código-fonte C# gerado?
-- [ ] A imagem mostra o "Hello World" sendo executado via terminal?
+- [ ] A imagem mostra o codigo que criamos sendo executado via terminal?
 - [ ] O README explica para que serve o comando `dotnet build`?
 
 ---
 
 !!! info "Dica de Sênior: O Truque do Explorador"
-Quer abrir a pasta do seu projeto no VS Code direto pelo terminal para editar o código? Digite `code .` (isso mesmo, "code" espaço "ponto") dentro da pasta do projeto. Se o VS Code estiver no seu *Path*, ele abrirá instantaneamente!
+Quer abrir a pasta do seu projeto no VS Code direto pelo terminal para editar o código? Digite `code .` 
+(isso mesmo, "code" espaço "ponto") dentro da pasta do projeto. 
+
+Se o VS Code estiver no seu *Path*, ele abrirá instantaneamente!
+
+... e o que acontece com o seu programa se, em vez de um ano (número), você digitar o seu nome novamente quando o sistema perguntar o ano de início? Como isso afeta a Experiência do Usuário (UX)?
