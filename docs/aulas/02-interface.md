@@ -58,9 +58,10 @@ Vamos criar um projeto do zero, sem tocar no mouse, seguindo o padrão de organi
 1. Abra o terminal na sua pasta de estudos.
 2. Crie uma pasta para o projeto: `mkdir LabDotnet`.
 3. Entre nela: `cd LabDotnet`.
-4. **Crie o projeto:** `dotnet new console`.
+4. **Crie o projeto:** `dotnet new console -n OlaMundo`.
 5. **Veja o que foi criado:** `dir`.
-6. **Execute o código padrão:** `dotnet run`.
+6. Navegue pra dentro da pasta com o cd OlaMundo.
+7. **Execute o código padrão:** `dotnet run`.
 * *(Dica: Você verá o clássico "Hello, World!" no terminal).*
 
 
