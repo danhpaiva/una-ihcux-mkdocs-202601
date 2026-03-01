@@ -26,7 +26,7 @@ Esqueça o "Botão Direito > Novo". Siga esta sequência exata no seu terminal:
 
 Agora altere o codigo da classe Program.cs para este:
 
-~~~
+```csharp
             // --- UX / IHC: Saudação e Contexto ---
             Console.Clear();
             Console.WriteLine("========================================");
@@ -52,7 +52,7 @@ Agora altere o codigo da classe Program.cs para este:
 
             Console.WriteLine("\n[Missão Cumprida! Pressione qualquer tecla para encerrar]");
             Console.ReadKey();
-~~~
+```
 
 ### 3. Registro de Evidência (A "Prova do Crime")
 
