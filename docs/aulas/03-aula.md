@@ -28,8 +28,9 @@ Imagine o protótipo como a planta azul de uma casa: você não precisa saber a 
 Antes de riscar, configure seu ambiente no Miro para ganhar produtividade:
 
 1. **Wireframe Library:** No menu lateral esquerdo, clique em "More apps" (os três pontinhos) e procure por **Wireframes**.
-2. **Frames:** Pressione `F` para criar um quadro. Escolha o tamanho (Browser, iPhone, etc.). Isso mantém seu design organizado.
-3. **Grids:** Ative a grade para ajudar a alinhar os componentes.
+2. **Frames:** Pressione `F` para criar um quadro. Escolha o tamanho (Browser, iPhone, etc.). 
+3. Isso mantém seu design organizado.
+4. **Grids:** Ative a grade para ajudar a alinhar os componentes.
 
 ---
 
@@ -100,13 +101,10 @@ Para validar sua participação, siga os passos:
 1. No Miro, clique no botão **Share** (canto superior direito).
 2. Mude a permissão para "Anyone with the link can **view**".
 3. Copie o link do board.
-4. Crie um arquivo chamado `PROTOTIPO.md` no seu repositório `una-ihcux-pratica02` (o mesmo da aula passada).
+4. Crie um arquivo chamado `PROTOTIPO.md` no seu repositório `una-ihcux-pratica03` (o mesmo da aula passada).
 5. Cole o link do Miro dentro desse arquivo Markdown.
 6. Dê um `git commit` e `git push`.
 
 !!! tip "Próximos Passos"
-Com o protótipo validado, o próximo passo é transformar esse desenho em componentes reais usando HTML/CSS ou Blazor. Na próxima aula: **Do Wireframe ao Código - Estruturando a UI!**
-
----
-
-**Gostou da estrutura, mestre? Posso te ajudar a criar os critérios de avaliação dessa atividade ou um checklist de UX para os alunos seguirem no Miro.**
+Com o protótipo validado, o próximo passo é transformar esse desenho em componentes reais usando HTML/CSS ou Blazor. 
+Na próxima aula: **Do Wireframe ao Código - Estruturando a UI!**
