@@ -92,8 +92,12 @@ Muitos programas instalados no seu PC só mostram a "cara" no terminal. Tente di
 
 ## 📝 Entrega no Google Classroom
 
-1. Copie a URL do seu perfil do github `https://github.com/danhpaiva`.
-2. Cole no campo da atividade correspondente: Pratica 01.
+Crie um repositório público no GitHub com o nome:
+`una-ihcux-pratica01`
+
+0. Suba seu projeto de OlaMundo feito em C#.
+1. Copie a URL do repositório `una-ihcux-pratica01`.
+2. Cole no campo da atividade correspondente.
 
 ---
 
