@@ -31,8 +31,10 @@ nav:
   - Home: index.md
   # - Guia do Professor: setup.md
   - 📖 Aulas:
-      - 01. Interfaces: aulas/01-interface.md
-      - 02. Interfaces: aulas/02-interface.md
+      - 01. Interfaces: aulas/01-aula.md
+      - 02. Interfaces: aulas/02-aula.md
+      - 03. UX: aulas/03-aula.md
+      - 04. UX: aulas/04-aula.md
   - 📝 Listas:
       - Lista 01: listas/01-lista.md
   # - 📝 Atividades:
