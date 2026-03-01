@@ -9,7 +9,7 @@ Agora que você já domina o terreno (pastas e arquivos), é hora de construir s
 ### 1. Preparar o Terreno (Repositório)
 
 Crie um novo repositório público no GitHub com o nome:
-`una-dotnet-cli-master`
+`una-ihcux-lista02`
 
 ### 2. O Desafio do "Arquiteto de Sistemas"
 

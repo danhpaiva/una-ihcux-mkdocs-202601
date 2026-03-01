@@ -9,7 +9,7 @@ Agora que você já sabe navegar pelas pastas sem usar o mouse, vamos registrar 
 ### 1. Criar o Repositório de Navegação
 
 Crie um repositório público no GitHub com o nome:
-`una-algprog-terminal`
+`una-ihcux-lista01`
 
 ### 2. O Desafio do "Explorador Fantasma"
 
@@ -55,7 +55,7 @@ Aqui estão os comandos que mais utilizei na aula de Terminal:
 
 ## 📝 Entrega no Google Classroom
 
-1. Copie a URL do repositório `una-algprog-terminal`.
+1. Copie a URL do repositório `una-ihcux-lista01`.
 2. Cole no campo da atividade correspondente.
 3. **Pergunta de Reflexão:** No comentário da entrega, responda: *"Qual foi o comando que você achou mais difícil de memorizar e por quê?"*
 
