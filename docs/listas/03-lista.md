@@ -86,7 +86,7 @@ Isso prova que seu sistema está informando o status em tempo real conforme a he
 
 ## 📂 O que deve conter no seu Repositório?
 
-* **A pasta `ScannerExpert**`: Arquivos `.cs` e `.csproj`.
+* A pasta `**ScannerExpert**`: Arquivos `.cs` e `.csproj`.
 * **minha-evidencia.png**: O print do terminal durante o "carregamento".
 * **README.md**: Documentação explicando que este projeto aplica a **1ª Heurística de Nielsen**.
 
@@ -97,7 +97,6 @@ Isso prova que seu sistema está informando o status em tempo real conforme a he
 1. Envie o link do repositório `una-ihcux-lista03`.
 2. **Pergunta de Reflexão (IHC):** > 
 "Se o programa demorasse 10 segundos para finalizar, mas ficasse com a tela totalmente parada (em branco), sem as mensagens de '[PROCESSANDO]', o que o usuário provavelmente pensaria? 
-
 Como a visibilidade de status melhora a Experiência do Usuário (UX)?"
 
 ---
