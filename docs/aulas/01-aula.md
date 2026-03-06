@@ -1,6 +1,10 @@
 # ⚡ Aula 01: Dominando o Terminal (A Linha de Comando)
 
-Esqueça o mouse por alguns minutos. Como desenvolvedor, sua produtividade vai saltar de nível quando você aprender a falar diretamente com o sistema operacional. O **Terminal** não é coisa de filme de hacker dos anos 90; é a ferramenta de trabalho mais poderosa do seu arsenal.
+Esqueça o mouse por alguns minutos. 
+
+Como desenvolvedor, sua produtividade vai saltar de nível quando você aprender a falar diretamente com o sistema operacional. 
+
+O **Terminal** não é coisa de filme de hacker dos anos 90; é a ferramenta de trabalho mais poderosa do seu arsenal.
 
 ---
 
@@ -102,4 +106,5 @@ Crie um repositório público no GitHub com o nome:
 ---
 
 !!! tip "Próximos Passos"
-Agora que você sabe navegar como um profissional, vamos aprender a integrar o **Git** diretamente com esses comandos. Na próxima aula: **Controle de Versão via Linha de Comando!**
+Agora que você sabe navegar como um profissional, vamos aprender a integrar o **Git** diretamente com esses comandos. 
+Na próxima aula: **Controle de Versão via Linha de Comando!**
