@@ -95,7 +95,9 @@ Isso prova que seu sistema está informando o status em tempo real conforme a he
 ## 📝 Entrega no Google Classroom
 
 1. Envie o link do repositório `una-ihcux-lista03`.
-2. **Pergunta de Reflexão (IHC):** > "Se o programa demorasse 10 segundos para finalizar, mas ficasse com a tela totalmente parada (em branco), sem as mensagens de '[PROCESSANDO]', o que o usuário provavelmente pensaria? 
+2. **Pergunta de Reflexão (IHC):** > 
+"Se o programa demorasse 10 segundos para finalizar, mas ficasse com a tela totalmente parada (em branco), sem as mensagens de '[PROCESSANDO]', o que o usuário provavelmente pensaria? 
+
 Como a visibilidade de status melhora a Experiência do Usuário (UX)?"
 
 ---
@@ -113,5 +115,7 @@ Como a visibilidade de status melhora a Experiência do Usuário (UX)?"
 !!! info "Dica de Sênior: O segredo do feedback visual"
 No código acima, usamos o `\r` (Carriage Return). 
 Ele é um "truque" de interface CLI que permite que a mesma linha seja sobrescrita. 
+
 Sem ele, o terminal ficaria poluído com várias linhas repetidas. 
+
 Pequenos detalhes técnicos fazem uma grande diferença na **UX do Desenvolvedor**!
