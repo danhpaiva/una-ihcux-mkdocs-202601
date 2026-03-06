@@ -1,6 +1,8 @@
 # 🚩 Missão 01: Operação Ghost in the Shell (Dominando o Terminal)
 
-Agora que você já sabe navegar pelas pastas sem usar o mouse, vamos registrar sua evolução. O desafio de hoje é criar um **"Guia de Bolso"** de comandos e provar que você conseguiu manipular arquivos via Terminal.
+Agora que você já sabe navegar pelas pastas sem usar o mouse, vamos registrar sua evolução. 
+
+O desafio de hoje é criar um **"Guia de Bolso"** de comandos e provar que você conseguiu manipular arquivos via Terminal.
 
 ---
 
@@ -15,10 +17,10 @@ Crie um repositório público no GitHub com o nome:
 
 Abra o seu CMD (ou PowerShell) e execute a seguinte sequência de comandos:
 
-1. Vá para a sua Área de Trabalho (`cd Desktop`).
-2. Crie uma pasta chamada `missao-terminal`.
-3. Entre nela e crie um arquivo de texto vazio chamado `sucesso.txt`.
-* *Dica de Sênior:* No Windows, você pode usar o comando `type nul > sucesso.txt` ou `echo pronto > sucesso.txt`.
+1. Vá para a sua Área de Trabalho (`cd Desktop`)
+2. Crie uma pasta chamada `missao-terminal`
+3. Entre nela e crie um arquivo de texto vazio chamado `sucesso.txt`
+* *Dica de Sênior:* No Windows, você pode usar o comando `type nul > sucesso.txt` ou `echo pronto > sucesso.txt`
 
 
 4. Use o comando `dir` para listar o conteúdo da pasta.
@@ -71,4 +73,6 @@ Aqui estão os comandos que mais utilizei na aula de Terminal:
 ---
 
 !!! info "Dica Extra"
-Se você quiser impressionar, tente usar o comando `systeminfo` no terminal, copie as informações do seu processador e cole no seu README. Isso mostra que você sabe extrair dados do hardware via software!
+Se você quiser impressionar, tente usar o comando `systeminfo` no terminal, copie as informações do seu processador e cole no seu README. 
+
+Isso mostra que você sabe extrair dados do hardware via software!

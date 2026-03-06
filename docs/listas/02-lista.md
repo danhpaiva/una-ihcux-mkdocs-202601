@@ -1,6 +1,8 @@
 # 🚩 Missão 02: Operação Code Runner (Engenharia de Software via CLI)
 
-Agora que você já domina o terreno (pastas e arquivos), é hora de construir sua primeira estrutura de software profissional. O desafio hoje é provar que você consegue preparar um ambiente de desenvolvimento completo usando apenas o poder do **.NET CLI**.
+Agora que você já domina o terreno (pastas e arquivos), é hora de construir sua primeira estrutura de software profissional. 
+
+O desafio hoje é provar que você consegue preparar um ambiente de desenvolvimento completo usando apenas o poder do **.NET CLI**.
 
 ---
 
@@ -16,13 +18,13 @@ Crie um novo repositório público no GitHub com o nome:
 Esqueça o "Botão Direito > Novo". Siga esta sequência exata no seu terminal:
 
 1. Navegue até sua pasta de projetos (`cd Documentos` ou `cd Desktop`).
-2. Crie a pasta do laboratório: `mkdir LabDotnet`.
-3. Entre nela: `cd LabDotnet`.
+2. Crie a pasta do laboratório: `mkdir LabDotnet`
+3. Entre nela: `cd LabDotnet`
 4. **O Grande Salto:** Crie um novo projeto de console chamado "SistemaExpert":
 `dotnet new console -n SistemaExpert`
-5. Entre na pasta do projeto que o .NET criou: `cd SistemaExpert`.
-6. **Compile o projeto:** Execute o comando `dotnet build`.
-7. **Rode o programa:** Execute `dotnet run`.
+5. Entre na pasta do projeto que o .NET criou: `cd SistemaExpert`
+6. **Compile o projeto:** Execute o comando `dotnet build`
+7. **Rode o programa:** Execute `dotnet run`
 
 Agora altere o codigo da classe Program.cs para este:
 
@@ -89,7 +91,7 @@ Arquivos que o .NET criou para mim:
 
 ## 📂 O que deve conter no seu Repositório?
 
-* **A pasta `SistemaExpert**`: Suba os arquivos `.cs` e `.csproj` (não precisa subir as pastas `bin` e `obj`).
+* **A pasta `SistemaExpert`**: Suba os arquivos `.cs` e `.csproj` (não precisa subir as pastas `bin` e `obj`).
 * **minha-evidencia.png**: O print do seu terminal com o `dotnet run`.
 * **README.md**: Sua documentação técnica organizada.
 
@@ -100,7 +102,8 @@ Arquivos que o .NET criou para mim:
 1. Envie o link do repositório `una-ihcux-lista02`.
 2. **Pergunta de Reflexão:** No comentário, responda: 
 
-*"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) e a pasta que o comando 'dotnet new' criou?"*
+*"Qual a diferença visual que você notou entre a pasta que você criou manualmente (mkdir) 
+e a pasta que o comando 'dotnet new' criou?"*
 
 ---
 
@@ -113,10 +116,12 @@ Arquivos que o .NET criou para mim:
 
 ---
 
-!!! info "Dica de Sênior: O Truque do Explorador"
+!!! info "Dica: O Truque do Explorador"
 Quer abrir a pasta do seu projeto no VS Code direto pelo terminal para editar o código? Digite `code .` 
 (isso mesmo, "code" espaço "ponto") dentro da pasta do projeto. 
 
 Se o VS Code estiver no seu *Path*, ele abrirá instantaneamente!
 
-... e o que acontece com o seu programa se, em vez de um ano (número), você digitar o seu nome novamente quando o sistema perguntar o ano de início? Como isso afeta a Experiência do Usuário (UX)?
+... e o que acontece com o seu programa se, em vez de um ano (número), você digitar o seu nome novamente quando o sistema perguntar o ano de início? 
+
+Como isso afeta a Experiência do Usuário (UX)?

@@ -37,8 +37,8 @@ nav:
       # - 04. UX: aulas/04-aula.md
   - 📝 Listas:
       - Lista 01: listas/01-lista.md
-      # - Lista 02: listas/02-lista.md
-      # - Lista 03: listas/03-lista.md
+      - Lista 02: listas/02-lista.md
+      - Lista 03: listas/03-lista.md
   # - 📝 Atividades:
   #    - Projeto 01: trabalhos/projeto-01.md
 
