@@ -1,6 +1,10 @@
 # 🚀 Aula 02: O Poder do .NET CLI (Command Line Interface)
 
-Na aula anterior, aprendemos a navegar nas pastas. Agora, vamos aprender a **construir**. O `dotnet CLI` é a interface de linha de comando que nos permite criar, compilar e rodar aplicações .NET em qualquer sistema (Windows, Linux ou macOS).
+Na aula anterior, aprendemos a navegar nas pastas. 
+
+Agora, vamos aprender a **construir**. 
+
+O `dotnet CLI` é a interface de linha de comando que nos permite criar, compilar e rodar aplicações .NET em qualquer sistema (Windows, Linux ou macOS).
 
 Se você pretende trabalhar com Docker, Nuvem (Cloud) ou Automação, dominar esses comandos é obrigatório.
 
@@ -104,7 +108,7 @@ Crie um repositório público no GitHub com o nome:
 2. Cole no campo da atividade correspondente.
 
 Crie um repositório público no GitHub com o nome:
-`una-ihcux-calculadorafea`
+`una-ihcux-calculadora`
 
 0. Suba seus arquivos para o seu repositorio.
 1. Copie a URL do repositório `una-ihcux-calculadora`.
