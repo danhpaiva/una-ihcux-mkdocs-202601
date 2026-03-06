@@ -86,7 +86,7 @@ Isso prova que seu sistema está informando o status em tempo real conforme a he
 
 ## 📂 O que deve conter no seu Repositório?
 
-* A pasta `**ScannerExpert**`: Arquivos `.cs` e `.csproj`.
+* A pasta `ScannerExpert`: Arquivos `.cs` e `.csproj`.
 * **minha-evidencia.png**: O print do terminal durante o "carregamento".
 * **README.md**: Documentação explicando que este projeto aplica a **1ª Heurística de Nielsen**.
 
