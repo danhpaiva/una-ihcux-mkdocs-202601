@@ -1,6 +1,8 @@
 # 🚩 Missão 02: Operação Code Runner (Engenharia de Software via CLI)
 
-Agora que você já domina o terreno (pastas e arquivos), é hora de construir sua primeira estrutura de software profissional. O desafio hoje é provar que você consegue preparar um ambiente de desenvolvimento completo usando apenas o poder do **.NET CLI**.
+Agora que você já domina o terreno (pastas e arquivos), é hora de construir sua primeira estrutura de software profissional. 
+
+O desafio hoje é provar que você consegue preparar um ambiente de desenvolvimento completo usando apenas o poder do **.NET CLI**.
 
 ---
 
@@ -89,7 +91,7 @@ Arquivos que o .NET criou para mim:
 
 ## 📂 O que deve conter no seu Repositório?
 
-* **A pasta `SistemaExpert**`: Suba os arquivos `.cs` e `.csproj` (não precisa subir as pastas `bin` e `obj`).
+* **A pasta `SistemaExpert`**: Suba os arquivos `.cs` e `.csproj` (não precisa subir as pastas `bin` e `obj`).
 * **minha-evidencia.png**: O print do seu terminal com o `dotnet run`.
 * **README.md**: Sua documentação técnica organizada.
 
