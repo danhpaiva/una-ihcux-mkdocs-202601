@@ -61,8 +61,8 @@ Vamos simular a organização de um projeto real usando apenas o teclado. Siga o
 
 1. Abra o CMD.
 2. Digite `cd Desktop` para ir para a sua área de trabalho.
-3. Crie uma pasta para a nossa disciplina: `mkdir laboratorios-algprog`.
-4. Entre nela: `cd laboratorios-algprog`.
+3. Crie uma pasta para a nossa disciplina: `mkdir laboratorios-ihcux`.
+4. Entre nela: `cd laboratorios-ihcux`.
 5. Crie duas subpastas de uma vez: `mkdir aula01 aula02`.
 6. Confirme se elas foram criadas digitando `dir`.
 
